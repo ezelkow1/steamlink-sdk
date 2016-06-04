@@ -1,8 +1,6 @@
 diff -ruN -x .git kodi.old/configure.ac kodi/configure.ac
 --- kodi.old/configure.ac	2016-01-31 01:08:43.988534081 -0800
 +++ kodi/configure.ac	2016-01-31 01:09:16.353783633 -0800
-@@ -622,0 +622,1 @@
-+     #use_joystick=no
 @@ -1659,7 +1659,7 @@
  
  if test "${USE_STATIC_FFMPEG}" = "1"; then
